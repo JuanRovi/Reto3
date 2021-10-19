@@ -1,7 +1,7 @@
 
-package Domingo_Reto3.Reto3.inter;
+package Reto3.inter;
 
-import Domingo_Reto3.Reto3.modelo.Categoria;
+import Reto3.modelo.Categoria;
 import org.springframework.data.repository.CrudRepository;
 
 

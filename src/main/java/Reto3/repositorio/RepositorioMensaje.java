@@ -1,11 +1,11 @@
 
-package Domingo_Reto3.Reto3.repositorio;
+package Reto3.repositorio;
 
 import java.util.List;
 import java.util.Optional;
 
-import Domingo_Reto3.Reto3.inter.InterfaceMensaje;
-import Domingo_Reto3.Reto3.modelo.Mensaje;
+import Reto3.inter.InterfaceMensaje;
+import Reto3.modelo.Mensaje;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

@@ -1,11 +1,11 @@
 
-package Domingo_Reto3.Reto3.controlador;
+package Reto3.controlador;
 
 import java.util.List;
 import java.util.Optional;
 
-import Domingo_Reto3.Reto3.servicios.ServiciosCliente;
-import Domingo_Reto3.Reto3.modelo.Cliente;
+import Reto3.servicios.ServiciosCliente;
+import Reto3.modelo.Cliente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

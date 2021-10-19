@@ -1,11 +1,11 @@
 
-package Domingo_Reto3.Reto3.servicios;
+package Reto3.servicios;
 
 import java.util.List;
 import java.util.Optional;
 
-import Domingo_Reto3.Reto3.modelo.Room;
-import Domingo_Reto3.Reto3.repositorio.RepositorioRoom;
+import Reto3.modelo.Room;
+import Reto3.repositorio.RepositorioRoom;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

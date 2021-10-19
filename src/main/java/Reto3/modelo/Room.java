@@ -1,5 +1,5 @@
 
-package Domingo_Reto3.Reto3.modelo;
+package Reto3.modelo;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.io.Serializable;
