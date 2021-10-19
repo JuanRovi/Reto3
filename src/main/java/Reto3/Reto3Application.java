@@ -4,14 +4,13 @@
 // 4.Servicios
 // 5.Controlador o Web
 
-
-package Domingo_Reto3.Reto3;
+package Reto3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
-@EntityScan(basePackages = {"Domingo_Reto3.reto3.modelo"})
+@EntityScan(basePackages = {"Reto3.modelo"})
 @SpringBootApplication
 public class Reto3Application {
 
