@@ -43,11 +43,11 @@ public class ServiciosRoom {
                 if(room.getName()!=null){
                     e.get().setName(room.getName());
                 }
-                if(room.getStars()!=null){
-                    e.get().setStars(room.getStars());
-                }
                 if(room.getHotel()!=null){
                     e.get().setHotel(room.getHotel());
+                }
+                if(room.getStars()!=null){
+                    e.get().setStars(room.getStars());
                 }
                 if(room.getDescription()!=null){
                     e.get().setDescription(room.getDescription());

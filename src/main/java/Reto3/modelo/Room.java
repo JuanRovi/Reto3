@@ -15,8 +15,8 @@ public class Room implements Serializable{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
-    private Integer stars;
     private String hotel;
+    private Integer stars;
     private String description;
     
     @ManyToOne
@@ -48,20 +48,20 @@ public class Room implements Serializable{
         this.name = name;
     }
 
-    public Integer getStars() {
-        return stars;
-    }
-
-    public void setStars(Integer stars) {
-        this.stars = stars;
-    }
-
     public String getHotel() {
         return hotel;
     }
 
     public void setHotel(String hotel) {
         this.hotel = hotel;
+    }
+
+    public Integer getStars() {
+        return stars;
+    }
+
+    public void setStars(Integer stars) {
+        this.stars = stars;
     }
 
     public String getDescription() {
